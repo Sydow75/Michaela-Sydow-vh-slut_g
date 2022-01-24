@@ -5,14 +5,62 @@ body {
 
 h1 {
    font-family: Arial;
-   font-size: 3em;
+   font-size: 2em;
 }
 
 p {
   
-   font-size: 1.5em;
+   font-size: 1.2em;
 }
 
 a {
    color: white;
 }
+
+h1{
+   text-align: center;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   padding: 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+     
+   [class*="div"] {
+     width: 100%;
+     display: inline;
+     
+   }
+
+   
+ }
+
+ @media only screen and (max-width: 1200px) {
+  
+       [class*="div"] {
+         width: 100%;
+         display: inline;
+    
+    
+       }
+
+       [class*="footer"] {
+         display: flex;
+         position: relative;
+        
+          }
+
+    
+       
+      
+       
+      
+     }
